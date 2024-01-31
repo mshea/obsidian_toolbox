@@ -1,0 +1,66 @@
+fof0125 |+| CR 1/8 AC/DC 11 HP 9 (7-11) Atk/Prof +3 DPR 3 Atks 1 × 4 (1d6 + 1)
+-==-
+fof025 |+| CR 1/4 AC/DC 11 HP 13 (10-16) Atk/Prof +3 DPR 5 Atks 1 × 5 (1d6 + 2)
+-==-
+fof05 |+| CR 1/2 AC/DC 12 HP 22 (17-28) Atk/Prof +4 DPR 8 Atks 2 × 4 (1d4 + 2)
+-==-
+fof1 |+| CR 1 AC/DC 12 HP 33 (25-41) Atk/Prof +5 DPR 12 Atks 2 × 6 (1d8 + 2)
+-==-
+fof2 |+| CR 2 AC/DC 13 HP 45 (34-56) Atk/Prof +5 DPR 17 Atks 2 × 9 (2d6 + 2)
+-==-
+fof3 |+| CR 3 AC/DC 13 HP 65 (49-81) Atk/Prof +5 DPR 23 Atks 2 × 12 (2d8 + 3)
+-==-
+fof4 |+| CR 4 AC/DC 14 HP 84 (64-106) Atk/Prof +6 DPR 28 Atks 2 × 14 (3d8 + 1)
+-==-
+fof5 |+| CR 5 AC/DC 15 HP 95 (71-119) Atk/Prof +7 DPR 35 Atks 3 × 12 (3d6 + 2)
+-==-
+fof6 |+| CR 6 AC/DC 15 HP 112 (84-140) Atk/Prof +7 DPR 41 Atks 3 × 14 (3d6 + 4)
+-==-
+fof7 |+| CR 7 AC/DC 15 HP 130 (98-162) Atk/Prof +7 DPR 47 Atks 3 × 16 (3d8 + 3)
+-==-
+fof8 |+| CR 8 AC/DC 15 HP 136 (102-170) Atk/Prof +7 DPR 53 Atks 3 × 18 (3d10 + 2)
+-==-
+fof9 |+| CR 9 AC/DC 16 HP 145 (109-181) Atk/Prof +8 DPR 59 Atks 3 × 22 (3d12 + 3)
+-==-
+fof10 |+| CR 10 AC/DC 17 HP 155 (116-194) Atk/Prof +9 DPR 65 Atks 4 × 16 (3d8 + 3)
+-==-
+fof11 |+| CR 11 AC/DC 17 HP 165 (124-206) Atk/Prof +9 DPR 71 Atks 4 × 18 (3d10 + 2)
+-==-
+fof12 |+| CR 12 AC/DC 17 HP 175 (131-219) Atk/Prof +9 DPR 77 Atks 4 × 19 (3d10 + 3)
+-==-
+fof13 |+| CR 13 AC/DC 18 HP 184 (138-230) Atk/Prof +10 DPR 83 Atks 4 × 21 (4d8 + 3)
+-==-
+fof14 |+| CR 14 AC/DC 19 HP 196 (147-245) Atk/Prof +11 DPR 89 Atks 4 × 22 (4d10)
+-==-
+fof15 |+| CR 15 AC/DC 19 HP 210 (158-263) Atk/Prof +11 DPR 95 Atks 5 × 19 (3d10 + 3)
+-==-
+fof16 |+| CR 16 AC/DC 19 HP 229 (172-286) Atk/Prof +11 DPR 101 Atks 5 × 21 (4d8 + 3)
+-==-
+fof17 |+| CR 17 AC/DC 20 HP 246 (185-308) Atk/Prof +12 DPR 107 Atks 5 × 22 (3d12 + 3)
+-==-
+fof18 |+| CR 18 AC/DC 21 HP 266 (200-333) Atk/Prof +13 DPR 113 Atks 5 × 23 (4d10 + 1)
+-==-
+fof19 |+| CR 19 AC/DC 21 HP 285 (214-356) Atk/Prof +13 DPR 119 Atks 5 × 24 (4d10 + 2)
+-==-
+fof20 |+| CR 20 AC/DC 21 HP 300 (225-375) Atk/Prof +13 DPR 132 Atks 5 × 26 (4d12)
+-==-
+fof21 |+| CR 21 AC/DC 22 HP 325 (244-406) Atk/Prof +14 DPR 150 Atks 5 × 30 (4d12 + 4)
+-==-
+fof22 |+| CR 22 AC/DC 23 HP 350 (263-438) Atk/Prof +15 DPR 168 Atks 5 × 34 (4d12 + 8)
+-==-
+fof23 |+| CR 23 AC/DC 23 HP 375 (281-469) Atk/Prof +15 DPR 186 Atks 5 × 37 (6d10 + 4)
+-==-
+fof24 |+| CR 24 AC/DC 23 HP 400 (300-500) Atk/Prof +15 DPR 204 Atks 5 × 41 (6d10 + 8)
+-==-
+fof25 |+| CR 25 AC/DC 24 HP 430 (323-538) Atk/Prof +16 DPR 222 Atks 5 × 44 (6d10 + 11)
+-==-
+fof26 |+| CR 26 AC/DC 25 HP 460 (345-575) Atk/Prof +17 DPR 240 Atks 5 × 48 (6d10 + 15)
+-==-
+fof27 |+| CR 27 AC/DC 25 HP 490 (368-613) Atk/Prof +17 DPR 258 Atks 5 × 52 (6d10 + 19)
+-==-
+fof28 |+| CR 28 AC/DC 25 HP 540 (405-675) Atk/Prof +17 DPR 276 Atks 5 × 55 (6d10 + 22)
+-==-
+fof29 |+| CR 29 AC/DC 26 HP 600 (450-750) Atk/Prof +18 DPR 294 Atks 5 × 59 (6d10 + 26)
+-==-
+fof30 |+| CR 30 AC/DC 27 HP 666 (500-833) Atk/Prof +19 DPR 312 Atks 5 × 62 (6d10 + 29)
+-==-
