@@ -20,7 +20,7 @@ fof7 |+| CR 7 AC/DC 15 HP 130 (98-162) Atk/Prof +7 DPR 47 Atks 3 × 16 (3d8 + 3)
 -==-
 fof8 |+| CR 8 AC/DC 15 HP 136 (102-170) Atk/Prof +7 DPR 53 Atks 3 × 18 (3d10 + 2)
 -==-
-fof9 |+| CR 9 AC/DC 16 HP 145 (109-181) Atk/Prof +8 DPR 59 Atks 3 × 22 (3d12 + 3)
+fof9 |+| CR 9 AC/DC 16 HP 145 (109-181) Atk/Prof +8 DPR 59 Atks 3 × 10 (3d10 + 3)
 -==-
 fof10 |+| CR 10 AC/DC 17 HP 155 (116-194) Atk/Prof +9 DPR 65 Atks 4 × 16 (3d8 + 3)
 -==-
