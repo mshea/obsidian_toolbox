@@ -1,4 +1,4 @@
-# Markdown to PDF
+# Markdown to PDF with Pandoc and Latex
 
 This project contains files to convert markdown files to a two-column PDF suitable for printing on a single page.
 
