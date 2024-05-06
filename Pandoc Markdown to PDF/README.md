@@ -4,12 +4,14 @@ This project contains files to convert markdown files to a two-column PDF suitab
 
 It's intended to help someone writing notes for RPG games using the steps from [Return of the Lazy Dungeon Master](https://shop.slyflourish.com/products/return-of-the-lazy-dungeon-master) in Markdown and export it to a nice two-column single-page sheet so you can print it and put it in your trapper keeper.
 
+This is a pretty complicated setup. You'll want some experience with shell scripting, markdown, latex, and Automator to get it to work. There are many other ways to implement this setup beyond the one below. Use what ideas and materials here you wish to get your own setup working.
+
 ## Requirements
 
 This project requires a few different components:
 
-- [Pandoc].
-- Some Latex interpreter for your machine such as [MacTex](https://tug.org/mactex/).
+- [Pandoc](https://github.com/jgm/pandoc/blob/main/INSTALL.md).
+- A Latex interpreter for your machine such as [MacTex](https://tug.org/mactex/).
 - [Automator](https://en.wikipedia.org/wiki/Automator_(macOS)) for the Mac.
 
 I don't use this on a PC so I can't offer the PC equivalent but I know Pandoc is available for Windows so there's likely a similar process that works for PC.
@@ -20,6 +22,7 @@ This project contains several different components:
 - **md_to_pdf.tex**. The Latex template for exporting markdown to PDF.
 - **md_to_pdf.sh**. The Pandoc batch script.
 - **md_to_pdf.app**. The automator file.
+- **output.pdf**. An example of what the output looks like using the included latex template.
 
 ## YMMV
 
