@@ -32,7 +32,7 @@ When I first set this up I used Chat GPT to help me out so below you'll find the
 
 Good luck!
 
-## Longer Instructions from Chat GPT
+## Longer Instructions
 
 Here are the instructions for creating an Automator script on macOS that opens a file, and sends it to a Pandoc shell script for converting a Markdown file to PDF using a LaTeX template:
 
@@ -78,3 +78,22 @@ To convert a Markdown file to PDF:
 - The script will process the file and generate a PDF named `output.pdf` in the same directory as the shell script.
 
 Include these instructions in your GitHub repository to guide users through setting up the workflow.
+
+### Using the Shell Commands Plugin for Obsidian
+
+You can also use the [Shell Commands](https://github.com/Taitava/obsidian-shellcommands) plugin for Obsidian to export markdown files to PDF.
+
+You'll still need Pandoc, MacTeX, and the Latex template and above.
+
+Install the Shell Commands plugin and create a new shell script.
+
+Use the following shell script, replacing paths with your own when necessary.
+
+```
+/usr/local/bin/pandoc {{file_path:absolute}} --pdf-engine=/Library/TeX/texbin/pdflatex -s --template=/your/template/path/session_notes_template.tex -o "/your/output/path/output.pdf" --variable columns=2
+```
+
+Give it an alias name and, in the shell script's configuration, turn it on for the File Menu so you can right click on a file and export to PDF.
+
+
+
