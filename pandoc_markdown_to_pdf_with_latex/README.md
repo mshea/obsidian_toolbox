@@ -21,7 +21,7 @@ Instead of installing and setting up all the scripts below, you can set a two-co
         column-count: 2;
         column-gap: 2em;
 		font-family: "Computer Modern";
-		
+		line-height: 1.2em;
     }
 }
 ```
