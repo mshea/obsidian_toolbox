@@ -1,10 +1,38 @@
-# Markdown to PDF with Pandoc and Latex
+# Printing Markdown to Two-Column PDFs
 
 This project contains files to convert markdown files to a two-column PDF suitable for printing on a single page.
 
 It's intended to help someone writing notes for RPG games using the steps from [Return of the Lazy Dungeon Master](https://shop.slyflourish.com/products/return-of-the-lazy-dungeon-master) in Markdown and export it to a nice two-column single-page sheet so you can print it and put it in your trapper keeper.
 
-This is a pretty complicated setup. You'll want some experience with shell scripting, markdown, latex, and Automator to get it to work. There are many other ways to implement this setup beyond the one below. Use what ideas and materials here you wish to get your own setup working.
+## Easier Option – Styling Print to PDF
+
+Instead of installing and setting up all the scripts below, you can set a two-column stylesheet for the default "Print to PDF" of Obsidian.
+
+1. Go to your Obsidian settings.
+2. Go to "Appearance".
+3. Scroll to the bottom and look for CSS snippets.
+4. Click the folder icon. This will open up the folder in your desktop OS.
+5. Open a text editor and create a new file with the filename of "two-column.css".
+6. Paste the following CSS snippet into this new file:
+
+```
+@media print {
+    .markdown-preview-view {
+        column-count: 2;
+        column-gap: 2em;
+		font-family: “Computer Modern”;
+		
+    }
+}
+```
+
+The snippet file should disappear and now appear as an option under your existing snippets. Turn it on.
+
+Now, anytime you print to PDF, it will print a two-column version of the file. You can change the font-family in the CSS to change your font and use the scaling in the Print to PDF option to help it be both readable and, ideally, fit on one page.
+
+## Complicated Setup for Pandoc and Latex
+
+You'll want some experience with shell scripting, markdown, latex, and Automator to get the following setup to work. There are many other ways to implement this setup beyond the one below. Use what ideas and materials here you wish to get your own setup working.
 
 ## Requirements
 
@@ -64,9 +92,11 @@ chmod +x convert_to_pdf.sh
 3. Drag and drop "Run Shell Script" from the Actions pane into the workflow.
 4. Set "Pass input" to "as arguments".
 5. In the shell script box, enter the full path to your shell script, passing the argument:
+
 ```bash
 /path/to/convert_to_pdf.sh "$@"
 ```
+
 Replace `/path/to/convert_to_pdf.sh` with the actual path to your shell script.
 
 6. Save the Automator Application. Choose a convenient location and name it, e.g., `MarkdownToPDF.app`.
@@ -94,6 +124,3 @@ Use the following shell script, replacing paths with your own when necessary.
 ```
 
 Give it an alias name and, in the shell script's configuration, turn it on for the File Menu so you can right click on a file and export to PDF.
-
-
-
