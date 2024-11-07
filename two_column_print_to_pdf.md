@@ -29,5 +29,4 @@ Here are the steps:
 
 Now, anytime you print to PDF, it will print a two-column version of the file. You can change the font-family and add other styles as you like. I found the ones in the script work best for me. Use the scaling option when you print to PDF to maximize it to a single page. If it ends up too small, your simply have too many notes. Just cut a few and it'll be perfect.
 
-
-
+See two_column_output_example.pdf for an example of the PDF output from this setup.
