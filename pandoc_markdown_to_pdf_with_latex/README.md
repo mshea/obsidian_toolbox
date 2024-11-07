@@ -20,7 +20,7 @@ Instead of installing and setting up all the scripts below, you can set a two-co
     .markdown-preview-view {
         column-count: 2;
         column-gap: 2em;
-		font-family: “Computer Modern”;
+		font-family: "Computer Modern";
 		
     }
 }
